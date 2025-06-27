@@ -2610,6 +2610,14 @@
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_RAW" Source="FFCA79EC" />
       </Color>
+      <Color Name="outlining.chevron.expanded">
+        <Background Type="CT_RAW" Source="001F1C1B" />
+        <Foreground Type="CT_RAW" Source="FFFFEEC0" />
+      </Color>
+      <Color Name="outlining.chevron.collapsed">
+        <Background Type="CT_RAW" Source="001F1C1B" />
+        <Foreground Type="CT_RAW" Source="FFFFEEC0" />
+      </Color>
     </Category>
     <Category Name="CommonControls" GUID="{c01072a1-a915-4abf-89b7-e2f9e8ec4c7f}">
       <Color Name="Button">
@@ -6121,12 +6129,12 @@
         <Foreground Type="CT_RAW" Source="FF423935" />
       </Color>
       <Color Name="Collapsible Text (Collapsed)">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FF999177" />
+        <Foreground Type="CT_RAW" Source="FF1F1C1B" />
       </Color>
       <Color Name="Collapsible Text (Expanded)">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+        <Foreground Type="CT_RAW" Source="FF1F1C1B" />
       </Color>
       <Color Name="Selected Text in High Contrast">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6139,6 +6147,14 @@
       <Color Name="Inactive Selected Text">
         <Background Type="CT_RAW" Source="FF3F3F46" />
         <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="outlining.chevron.expanded">
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+        <Foreground Type="CT_RAW" Source="FF1F1C1B" />
+      </Color>
+      <Color Name="outlining.chevron.collapsed">
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+        <Foreground Type="CT_RAW" Source="FF1F1C1B" />
       </Color>
     </Category>
     <Category Name="Folder Difference" GUID="{b36b0228-dbad-4db0-b9c7-2ad3e572010f}">
@@ -7797,29 +7813,25 @@
         <Background Type="CT_RAW" Source="FF8A3707" />
       </Color>
     </Category>
-    <Category Name="SqlResultsGrid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
+    <Category Name="SQL Results - Grid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
       <Color Name="Grid Cell">
         <Background Type="CT_RAW" Source="FF2D2D30" />
         <Foreground Type="CT_RAW" Source="FFFFEEC0" />
       </Color>
       <Color Name="Selected Cell">
         <Background Type="CT_RAW" Source="FF2A4977" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Inactive Selected Cell">
         <Background Type="CT_RAW" Source="FF3F3F46" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Null Value Cell">
         <Background Type="CT_RAW" Source="FF2D2D30" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="Header Row">
         <Background Type="CT_RAW" Source="FF1F1C1B" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
-    <Category Name="SqlResultsText" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
+    <Category Name="SQL Results - Text" GUID="{587d0421-e473-4032-b214-9359f3b7bc80}">
       <Color Name="Plain Text">
         <Background Type="CT_RAW" Source="FF2D2D30" />
         <Foreground Type="CT_RAW" Source="FFFFEEC0" />
@@ -8805,12 +8817,12 @@
         <Foreground Type="CT_RAW" Source="FFD85050" />
       </Color>
       <Color Name="Collapsible Text (Collapsed)">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="001F1C1B" />
+        <Foreground Type="CT_RAW" Source="FF999177" />
       </Color>
       <Color Name="Collapsible Text (Expanded)">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Background Type="CT_RAW" Source="001F1C1B" />
+        <Foreground Type="CT_RAW" Source="FFFFEEC0" />
       </Color>
       <Color Name="Brace Matching (Highlight)">
         <Background Type="CT_RAW" Source="FF5500A5" />
@@ -8859,6 +8871,22 @@
       <Color Name="Brace Matching (Rectangle)">
         <Background Type="CT_RAW" Source="FF5500A5" />
         <Foreground Type="CT_RAW" Source="FF000000" />
+      </Color>
+      <Color Name="Read-Only Region">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Code Snippet Field">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Definition Window Background">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="Refactoring Background">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
     </Category>
     <Category Name="ThemedAcceleratedDialog" GUID="{a2859846-e4aa-452d-ac41-8cc0e4e72e4c}">
@@ -10111,36 +10139,6 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="SelectedText">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-    </Category>
-    <Category Name="UELog" GUID="{7b340533-df9e-4893-a381-a13ea9227277}">
-      <Color Name="Log">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="VeryVerbose">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="Verbose">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="Display">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="Warning">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="Error">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
-      </Color>
-      <Color Name="Fatal">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
