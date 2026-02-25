@@ -3228,13 +3228,13 @@
         <Background Type="CT_RAW" Source="FF55AAFF" />
       </Color>
       <Color Name="Accent01">
-        <Background Type="CT_RAW" Source="FFA79CF1" />
+        <Background Type="CT_RAW" Source="FFA8f36F" />
       </Color>
       <Color Name="Accent02">
-        <Background Type="CT_RAW" Source="E5A79CF1" />
+        <Background Type="CT_RAW" Source="E5A8f36F" />
       </Color>
       <Color Name="Accent03">
-        <Background Type="CT_RAW" Source="CCA79CF1" />
+        <Background Type="CT_RAW" Source="CCA8f36F" />
       </Color>
       <Color Name="Accent04">
         <Background Type="CT_RAW" Source="669184EE" />
@@ -7654,6 +7654,9 @@
       <Color Name="SubtleFillTransparent">
         <Background Type="CT_RAW" Source="00FFFFFF" />
       </Color>
+      <Color Name="SurfaceBackgroundFillDefault">
+        <Background Type="CT_RAW" Source="FF26272C" />
+      </Color>
       <Color Name="SurfaceStrokeDefault">
         <Background Type="CT_RAW" Source="66757575" />
       </Color>
@@ -7703,13 +7706,13 @@
         <Background Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="AccentFillDefault">
-        <Background Type="CT_RAW" Source="FFA79CF1" />
+        <Background Type="CT_RAW" Source="FFa8f36f" />
       </Color>
       <Color Name="AccentFillAlt">
         <Background Type="CT_RAW" Source="FF5649B0" />
       </Color>
       <Color Name="AccentFillSecondary">
-        <Background Type="CT_RAW" Source="E5A79CF1" />
+        <Background Type="CT_RAW" Source="E5887E66" />
       </Color>
       <Color Name="AccentFillSelectedTextBackground">
         <Background Type="CT_RAW" Source="FF005FB7" />
@@ -7718,7 +7721,7 @@
         <Background Type="CT_RAW" Source="6660CDFF" />
       </Color>
       <Color Name="AccentFillTertiary">
-        <Background Type="CT_RAW" Source="CCA79CF1" />
+        <Background Type="CT_RAW" Source="CC887E66" />
       </Color>
       <Color Name="AccentTextFillPrimary">
         <Background Type="CT_RAW" Source="FFD2CCF8" />
@@ -7727,7 +7730,7 @@
         <Background Type="CT_RAW" Source="FFD2CCF8" />
       </Color>
       <Color Name="AccentTextFillTertiary">
-        <Background Type="CT_RAW" Source="FFA79CF1" />
+        <Background Type="CT_RAW" Source="FFA8f36F" />
       </Color>
       <Color Name="HyperlinkFillPrimary">
         <Background Type="CT_RAW" Source="FF99EBFF" />
@@ -7801,10 +7804,10 @@
         <Background Type="CT_RAW" Source="FFFFEEC0" />
       </Color>
       <Color Name="EnvironmentBorder">
-        <Background Type="CT_RAW" Source="FFA79CF1" />
+        <Background Type="CT_RAW" Source="FF38302D" />
       </Color>
       <Color Name="EnvironmentLogo">
-        <Background Type="CT_RAW" Source="FFA79CF1" />
+        <Background Type="CT_RAW" Source="FF38302D" />
       </Color>
       <Color Name="StatusBarFillBuildingBackground">
         <Background Type="CT_RAW" Source="FF5649B0" />
