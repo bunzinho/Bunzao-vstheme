@@ -7487,7 +7487,7 @@
         <Background Type="CT_RAW" Source="28FFFFFF" />
       </Color>
       <Color Name="AccentTextFillDisabled">
-        <Background Type="CT_RAW" Source="5DFFFFFF" />
+        <Background Type="CT_RAW" Source="FF887E66" />
       </Color>
       <Color Name="CardBackgroundFillDefault">
         <Background Type="CT_RAW" Source="0DFFFFFF" />
@@ -7586,7 +7586,7 @@
         <Background Type="CT_RAW" Source="3FFFFFFF" />
       </Color>
       <Color Name="ControlStrongStrokeDefault">
-        <Background Type="CT_RAW" Source="9AFFFFFF" />
+        <Background Type="CT_RAW" Source="FF887E66" />
       </Color>
       <Color Name="ControlStrongStrokeDisabled">
         <Background Type="CT_RAW" Source="28FFFFFF" />
@@ -7658,10 +7658,10 @@
         <Background Type="CT_RAW" Source="FF26272C" />
       </Color>
       <Color Name="SurfaceStrokeDefault">
-        <Background Type="CT_RAW" Source="66757575" />
+        <Background Type="CT_RAW" Source="FF887E66" />
       </Color>
       <Color Name="SurfaceStrokeFlyout">
-        <Background Type="CT_RAW" Source="33000000" />
+        <Background Type="CT_RAW" Source="FF887E66" />
       </Color>
       <Color Name="SystemFillAttentionBackground">
         <Background Type="CT_RAW" Source="08FFFFFF" />
@@ -7682,16 +7682,16 @@
         <Background Type="CT_RAW" Source="FF1F1C1B" />
       </Color>
       <Color Name="TextFillDisabled">
-        <Background Type="CT_RAW" Source="5DFFFFFF" />
+        <Background Type="CT_RAW" Source="FF887E66" />
       </Color>
       <Color Name="TextFillPrimary">
         <Background Type="CT_RAW" Source="FFFFEEC0" />
       </Color>
       <Color Name="TextFillSecondary">
-        <Background Type="CT_RAW" Source="C8FFFFFF" />
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
       </Color>
       <Color Name="TextFillTertiary">
-        <Background Type="CT_RAW" Source="8BFFFFFF" />
+        <Background Type="CT_RAW" Source="FF887E66" />
       </Color>
       <Color Name="TextOnAccentFillDisabled">
         <Background Type="CT_RAW" Source="80000000" />
@@ -7706,7 +7706,7 @@
         <Background Type="CT_RAW" Source="FF000000" />
       </Color>
       <Color Name="AccentFillDefault">
-        <Background Type="CT_RAW" Source="FFa8f36f" />
+        <Background Type="CT_RAW" Source="FFA8F36F" />
       </Color>
       <Color Name="AccentFillAlt">
         <Background Type="CT_RAW" Source="FF5649B0" />
@@ -7807,7 +7807,7 @@
         <Background Type="CT_RAW" Source="FF38302D" />
       </Color>
       <Color Name="EnvironmentLogo">
-        <Background Type="CT_RAW" Source="FF38302D" />
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
       </Color>
       <Color Name="StatusBarFillBuildingBackground">
         <Background Type="CT_RAW" Source="FF5649B0" />
