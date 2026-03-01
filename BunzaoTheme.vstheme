@@ -7815,6 +7815,21 @@
       <Color Name="StatusBarFillDebuggingBackground">
         <Background Type="CT_RAW" Source="FF8A3707" />
       </Color>
+      <Color Name="CaptionControlCloseTextFillPrimary">
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+      </Color>
+      <Color Name="StatusBarTextFillBuilding">
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+      </Color>
+      <Color Name="StatusBarTextFillDebugging">
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+      </Color>
+      <Color Name="StatusBarTextFillRest">
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+      </Color>
+      <Color Name="StatusBarTextFillSolutionLoading">
+        <Background Type="CT_RAW" Source="FFFFEEC0" />
+      </Color>
     </Category>
     <Category Name="SQL Results - Grid" GUID="{6202ff3e-488e-4ead-92cb-be089659f8d7}">
       <Color Name="Grid Cell">
