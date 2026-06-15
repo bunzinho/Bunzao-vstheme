@@ -50,12 +50,14 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bunzao visual studio 2022 dark theme.png" />
+    <Content Include="bunzao visual studio 2026 dark theme.png" />
     <Content Include="icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="screenshot.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
   </ItemGroup>
